@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Scale : MonoBehaviour
 {
-    [SerializeField] private float _speedScale = 0.0001f;
+    [SerializeField] private float _speedScale;
 
     void Update()
     {
